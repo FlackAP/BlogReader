@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface APFMasterViewController : UITableViewController
+@property (strong, nonatomic) NSArray *titlesArray;
+
 
 @end
